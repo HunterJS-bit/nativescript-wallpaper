@@ -9,6 +9,7 @@ export class HelloWorldModel extends Observable {
     super();
 
     this.wallpaper = new Wallpaper();
+    this.wallpaper.setWallper('pathToImage');
     this.message = this.wallpaper.message;
   }
 }
